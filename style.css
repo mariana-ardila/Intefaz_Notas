@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+}
+
+.header {
+  height: 10%;
+  width: 100%;
+  background-color: salmon;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__evalix {
+  height: 100px; /* Ajusta la altura, no el ancho */
+  max-width: 100%; /* Evita que se desborde */
+  object-fit: contain;
+}
+
+.header__sesion {
+  height: 100px; /* Ajusta la altura, no el ancho */
+  max-width: 100%; /* Evita que se desborde */
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  align-content: center;
+  margin-right: 10px;
+}
+
+.logosesion {
+  height: 40px; /* Ajusta la altura, no el ancho */
+  max-width: 50%; /* Evita que se desborde */
+  object-fit: contain;
+  align-self: center;
+  margin-top: 12px;
+}
+.textsesion {
+  text-align: center;
+  padding: 6px;
+  border-radius: 7px;
+  background-color: aliceblue;
+  font-size: 15px;
+  font-weight: bold;
+}
+.textsesion:hover {
+  background-color: chocolate;
+}
+.principal {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 14rem;
+}
+
+.principal__container {
+  padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(240, 210, 203, 0.491);
+  height: 5%;
+  border: 0.2rem rgb(250, 215, 202) solid;
+  /* box-shadow: rgb(58, 58, 58) 5px;no sé como se pone la sombra */
+  border-radius: 0.5rem;
+  width: 35%;
+}
+.title {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.container-perfil {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: rgba(251, 251, 251, 0.89);
+}
+.informacion {
+  font-weight: bold;
+  width: 20rem;
+}
+.container-iconoUser {
+  height: 100px; /* Ajusta la altura, no el ancho */
+  max-width: 100%; /* Evita que se desborde */
+  object-fit: contain;
+}
+
+.lista {
+  position: relative;
+  background-color: rgba(251, 229, 211, 0.546);
+  display: block;
+  align-items: center;
+  padding: 1.2rem;
+  border: solid 2px rgb(255, 255, 255);
+  border-radius: 1rem;
+}
+.lista__item {
+  list-style: none;
+  background-color: rgba(252, 146, 134, 0.687);
+  width: 12rem;
+  padding: 0.7rem;
+  margin: 1rem;
+  border: solid rgb(255, 255, 255) 4px;
+  border-radius: 0.8rem;
+  text-align: center;
+}
+.lista__link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.footer {
+  position: relative; 
+  display: flex;
+  background-color: antiquewhite;
+  height: 4rem;
+  width: 100%;
+  padding: 4rem;
+  bottom: 0;
+  left: 0;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
