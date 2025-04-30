@@ -3,12 +3,16 @@
   padding: 0;
   margin: 0;
 }
-html {
+body{
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
 }
 
 .header {
-  height: 10%;
+  height: 100%;
   width: 100%;
+  /* position: fixed; */
   background-color: salmon;
   display: flex;
   flex-direction: row;
@@ -55,8 +59,11 @@ html {
   display: flex;
   flex-direction: row;
   gap: 14rem;
+  margin-top: 140px;
 }
-
+.principal__nabvar{
+  position: fixed;
+}
 .principal__container {
   padding: 1.3rem;
   display: flex;
