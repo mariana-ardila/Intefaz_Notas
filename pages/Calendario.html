@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="imagenes/Evalix.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../imagenes/Evalix.png" type="image/x-icon">
+    <link rel="stylesheet" href="../index.html">
     <title>Evalix</title>
 </head>
 <body>
 <header class="header">
-    <img class="header__evalix" src="imagenes/Evalix.png" alt="Logo de evalix">
+    <img class="header__evalix" src="../imagenes/Evalix.png" alt="Logo de evalix">
     <h1 style="color: azure;padding: 1rem; background-color: rgba(245, 245, 220, 0.162);">Bienvenido a Evalix</h1>
 <!-- logo de Evalix a la izquierda -->
     <div class="header__sesion">
     <!-- Icono de cerrar sesión -->
-        <img class="logosesion" src="imagenes/cerrar-sesion.png" alt="Logo de cerrar sesión">
+        <img class="logosesion" src="../imagenes/cerrar-sesion.png" alt="Logo de cerrar sesión">
         <span class="textsesion" >Cerrar sesión</span>
     </div>
     
@@ -22,32 +23,29 @@
 <div class="container">
     <aside class="navbar">
         <ul class="navbar__list">
+          <li class="navbar__item"><a class="navbar__link" href="../index.html">Inicio</a></li>
           <li class="navbar__item"><a class="navbar__link" href="pages/Notas.html" >Notas</a></li>
           <li class="navbar__item"><a class="navbar__link" href="pages/Asistencia.html">Asistencia</a></li>
           <li class="navbar__item"><a class="navbar__link" href="pages/Reportes.html">Reportes y Boletines</a></li>
-          <li class="navbar__item"><a class="navbar__link" href="pages/Calendario.html">Calendario Académico</a></li>
         </ul>  
     </aside>
     <main class="main">
         <div class="information-block">
           <h2 class="information-block__title">Información Docente</h2>
-            <div class="information-block__teacher">
-                <div class="information-block__data">
-                    <p class="information-block__text">Nombre: xxxxxxx xxxxxxx</p>
-                    <p class="information-block__text">Cédula: xxxxxx</p>
-                    <p class="information-block__text">Género: xxxxxx</p>
-                    <p class="information-block__text">Correo: xxxxxx@gmail.com</p>
-                </div>
-                <div class="information-block__updata">
-                    <img class="information-block__user-icon" src="imagenes/usuario.png" alt="Icono de usuario">
-                    <a href="pages/Actualizar_Datos.html" class="information-block__bottom">Actualizar Datos</a>
-                </div>
+          <div class="information-block__teacher">
+            <div class="information-block__data">
+              <p class="information-block__text">Nombre: xxxxxxx xxxxxxx</p>
+              <p class="information-block__text">Cédula: xxxxxx</p>
+              <p class="information-block__text">Género: xxxxxx</p>
+              <p class="information-block__text">Correo: xxxxxx@gmail.com</p>
             </div>
+            <img class="information-block__user-icon" src="../imagenes/usuario.png" alt="Icono de usuario">
+          </div>
         </div>
       
 
         <div class="container-principal">
-            <img class="container-principal__imagen" src="imagenes/img.png" alt="Imagen principal">
+            <img class="container-principal__imagen" src="../imagenes/img.png" alt="Imagen principal">
         </div>
     </main>
 </div>
