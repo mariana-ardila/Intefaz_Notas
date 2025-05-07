@@ -183,16 +183,29 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 0;
+  background-color: rgb(254, 235, 232);
+  border: 0.5rem solid rgb(254, 227, 226);
+  border-radius: 0.2rem;
 }
 .container-principal__title {
   font-weight: bold;
   text-align: center;
   font-size: 1.5rem;
   padding: 1rem;
-  background-color: rgb(245, 233, 231);
+  color: white;
+  background-color: salmon;
+  box-shadow:0.2rem 0.2rem 0.2rem rgb(153, 151, 151);
 }
 .container-principal__preguntas {
+  display: flex;
+  flex-direction: column;
+align-self: center;
 }
+.container-principal__input{
+  display: flex;
+  align-items: end;
+}
+
 .container-principal__buttom {
   padding: 0.6rem;
   border-radius: 7px;
@@ -205,11 +218,15 @@ body {
  align-self: center;
 }
 
+.container-principal__buttom:hover {
+  background-color: rgb(223, 132, 99);
+}
+
 .container-principal__text {
   margin: 0.6rem;
   padding: 1rem;
   font-weight: bold;
-  background-color: rgb(255, 242, 225);
+  background-color: rgb(245, 203, 198);
   border-radius: 0.6rem;
   font-size: 1rem;
 }
